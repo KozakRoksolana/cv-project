@@ -1,16 +1,23 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+  /*background-color: gray;*/
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
 }
 
 .cv {
-  color: #555;
-  padding: 10px 20px;
+  padding: 0;
   margin: 0 auto;
-  width: 1000px;
-  border: 1px solid gainsboro;
+  width: 992px;
+  border: 1px solid #D3D3D3;
+  display: flex;
+  background: whitesmoke;
+  /*filter:drop-shadow(20px 15px 10px #1d1d1f)*/
 }
-
 
 .full-name {
   color: darkblue;
@@ -18,15 +25,53 @@ body {
 }
 
 .my-photo {
-  width: 200px;
-  height:auto;
-  border-radius: 20%;
+  margin: auto;
+  display: block;
+  width: 240px;
+  height:240px;
+  border-radius: 50%;
 }
 
-.contact-list {
-  background-color: lightcyan;
+.no-bullets li {
+  list-style-type: none;
 }
 
-.technologies-list {
-  background-color: lightsalmon;
+.bottom-space li {
+  margin-bottom: 10px;
+}
+
+.left-column {
+  flex: 35%;
+  border-top: 40px solid #376193;
+  background: rgb(223, 223, 240);
+}
+
+.right-column {
+  flex: 65%;
+  border-bottom: 40px solid #264061;
+}
+
+.left-column, .right-column {
+  /* padding-right: 30px;
+  padding-left: 30px; */
+  padding: 0 30px;
+}
+
+.skills {
+  column-count: 3;
+}
+
+.header, .sub-header {
+  color: #264061;
+}
+
+.header {
+  font-size: 29px;
+  text-align: center;
+
+}
+
+.sub-header {
+  font-size: 23px;
+  border-bottom: 1px solid #376193;
 }
