@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cv {
+  color: #555;
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: 1000px;
+  border: 1px solid gainsboro;
+}
+
+
+.full-name {
+  color: darkblue;
+  text-align: center;
+}
+
+.my-photo {
+  width: 200px;
+  height:auto;
+  border-radius: 20%;
+}
+
+.contact-list {
+  background-color: lightcyan;
+}
+
+.technologies-list {
+  background-color: lightsalmon;
+}
