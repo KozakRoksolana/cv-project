@@ -13,9 +13,10 @@ h1, h2, h3, h4 {
   padding: 0;
   margin: 0 auto;
   width: 992px;
+  height: 1200px;
   border: 1px solid #D3D3D3;
   display: flex;
-  background: whitesmoke;
+  background: rgb(255, 255, 255);
   /*filter:drop-shadow(20px 15px 10px #1d1d1f)*/
 }
 
@@ -59,6 +60,11 @@ h1, h2, h3, h4 {
 
 .skills {
   column-count: 3;
+  padding: 0;
+}
+
+.experience {
+  padding: 0;
 }
 
 .header, .sub-header {
@@ -75,3 +81,22 @@ h1, h2, h3, h4 {
   font-size: 23px;
   border-bottom: 1px solid #376193;
 }
+
+.bi {
+  margin-right: 0.4rem;
+  display: inline-block;
+  vertical-align: -0.125rem;
+  height: 1rem;
+  width: 1rem;
+}
+ a {
+   all: unset;
+ }
+ .decorative-block {
+   height: 40px;
+   width:100%;
+ }
+
+ .cv-section {
+   padding-bottom: 1.5rem;
+ }
